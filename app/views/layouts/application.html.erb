@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PersonalWebInfo</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<title>PersonalWebInfo</title>
+		<script src="/assets/skel.min.js" type="text/javascript"></script>
+		<script src="/assets/html5shiv.js" type="text/javascript"></script>
+		
+		<%= stylesheet_link_tag "application", media: "all",
+		"data-turbolinks-track" => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		
+		
 
-<%= yield %>
+		<%= yield %>
 
-</body>
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="links">
+				<li>
+					&copy; Jane Doe
+				</li>
+				<li>
+					Images : <a href="http://fotogrph.com/">fotogrph</a>
+				</li>
+				<li>
+					Design : <a href="http://html5up.net/">HTML5 UP</a>
+				</li>
+			</ul>
+		</div>
+
+	</body>
 </html>
