@@ -6,52 +6,51 @@
 		<script src="/assets/jquery.min.js" type="text/javascript"></script>
 		<script src="/assets/skel.min.js" type="text/javascript"></script>
 		<script src="/assets/init.js" type="text/javascript"></script>
-		
-		
-		
-		<!-- <noscript>
+
+
+
+		<noscript>
 			<link rel="stylesheet" href="/assets/skel-noscript.css" />
-			<link rel="stylesheet" href="/assets//style.css" />
+			<link rel="stylesheet" href="/assets/style.css" />
 			<link rel="stylesheet" href="/assets/style-desktop.css" />
 			<link rel="stylesheet" href="/assets/noscript.css" />
-		</noscript> -->
-		
+		</noscript>
+
 		<%= stylesheet_link_tag '/assets/style-desktop.css', 'media' => 'print' %>
 		<%= stylesheet_link_tag '/assets/style.css', 'media' => 'print' %>
 		<%= stylesheet_link_tag '/assets/noscript.css', 'media' => 'print' %>
 		<%= stylesheet_link_tag '/assets/skel-noscript.css', 'media' => 'print' %>
-		
+
 		<%= stylesheet_link_tag "application", media: "all",
 		"data-turbolinks-track" => true %>
 		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 		<%= csrf_meta_tags %>
 	</head>
 	<body>
-		
-		
+
+
 
 		<%= yield %>
 
 		<div id="wrapper">
-				
+
 				<!-- Nav -->
 					<nav id="nav">
-						<a href="#me" class="fa fa-home active"><span>Home</span></a>
-						<a href="#work" class="fa fa-folder"><span>Work</span></a>
-						<a href="#email" class="fa fa-envelope"><span>Email Me</span></a>
-						<a href="#" class="fa fa-twitter"><span>Twitter</span></a>
+						<a href="#me" class="fa fa-home active"><img src="/assets/home.png"></a>
+						<a href="#work" class="fa fa-folder"><img src="/assets/edu.png"></a>
+						<a href="#email" class="fa fa-envelope"><img src="/assets/email.png"></a>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-						
+
 						<!-- Me -->
 							<article id="me" class="panel">
 								<header>
 									<h1>Felipe Augusto</h1>
 									<span class="byline">Web Developer</span>
 								</header>
-								
+
 							</article>
 
 						<!-- Work --> 
@@ -76,9 +75,9 @@
 											<a href="http://flypixel.com/wallpaper-pack/3755398966026313" class="image image-full"><img src="assets/3.jpg" alt=""></a>
 										</div>
 									</div>
-									
-									
-									
+
+
+
 								</section>
 							</article>
 
@@ -117,7 +116,7 @@
 							</article>
 
 					</div>
-		
+
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="links">
@@ -126,7 +125,7 @@
 							<li>Design : <a href="http://html5up.net/">HTML5 UP</a></li>
 						</ul>
 					</div>
-		
+
 			</div>
 
 	</body>
