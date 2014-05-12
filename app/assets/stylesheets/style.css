@@ -47,8 +47,8 @@
 				set background-size to "cover".
 			*/
 
-			background: image-url('assets/bg.jpg')
-			background-size: 100% 100%;
+			background: image-url('assets/bg.jpg');
+			background-size: 100%;
 		}
 
 		/*
