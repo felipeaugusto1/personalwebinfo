@@ -310,7 +310,7 @@
 			{
 				position: absolute;
 				left: 0;
-				bottom: 52.5%;
+				bottom: 20%;
 				margin: 0;
 			}
 			
@@ -318,7 +318,37 @@
 			{
 				position: absolute;
 				left: 0;
-				top: 52.5%;
+				top: 82%;
+				font-size: 1.5em;
+				letter-spacing: -0.015em;
+				margin-top: 0;
+			}
+			
+			#me .byline2
+			{
+				position: absolute;
+				left: 0;
+				top: 10%;
+				font-size: 1.5em;
+				letter-spacing: -0.015em;
+				margin-top: 0;
+			}
+			
+			#me .byline3
+			{
+				position: absolute;
+				left: 0;
+				top: 20%;
+				font-size: 1.5em;
+				letter-spacing: -0.015em;
+				margin-top: 0;
+			}
+			
+			#me .byline4
+			{
+				position: absolute;
+				left: 0;
+				top: 30%;
 				font-size: 1.5em;
 				letter-spacing: -0.015em;
 				margin-top: 0;
